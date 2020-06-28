@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bae5e5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/CV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lobster"
+        android:text="My CV App "
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#f3d1f4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Your Name" />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="#f3d1f4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Your Age" />
+
+    <EditText
+        android:id="@+id/job"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="#f3d1f4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Your Job" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="#f3d1f4"
+        android:hint="Your Phone Number"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="#f3d1f4"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Your Email "/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="130dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:background="#D7B0D8"
+        android:text="Next" />
+
+</RelativeLayout>
